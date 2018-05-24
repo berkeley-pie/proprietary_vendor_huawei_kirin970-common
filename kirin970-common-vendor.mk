@@ -3009,3 +3009,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/lib64/libpf_customize_hisi.so:system/lib64/libpf_customize_hisi.so \
     vendor/huawei/kirin970-common/proprietary/lib64/libwifi-system.so:system/lib64/libwifi-system.so \
     vendor/huawei/kirin970-common/proprietary/lib64/libwifi-hal.so:system/lib64/libwifi-hal.so
+
+PRODUCT_PACKAGES += \
+    HotwordEnrollmentOKGoogleHI6403 \
+    HotwordEnrollmentXGoogleHI6403
