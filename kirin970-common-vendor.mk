@@ -2956,4 +2956,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-compat/liblzma.so:system/lib64/vndk-sp-compat/liblzma.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-compat/libpng.so:system/lib64/vndk-sp-compat/libpng.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-compat/libunwind.so:system/lib64/vndk-sp-compat/libunwind.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-compat/libutils.so:system/lib64/vndk-sp-compat/libutils.so
+    vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-compat/libutils.so:system/lib64/vndk-sp-compat/libutils.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libeffectsconfig.so:system/lib64/vndk-27/libeffectsconfig.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libicui18n.so:system/lib64/vndk-27/libicui18n.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libicuuc.so:system/lib64/vndk-27/libicuuc.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libneuralnetworks.so:system/lib64/vndk-27/libneuralnetworks.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libwifi-system.so:system/lib64/vndk-27/libwifi-system.so \
