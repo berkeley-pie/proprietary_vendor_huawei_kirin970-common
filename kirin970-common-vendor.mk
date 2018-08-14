@@ -2805,6 +2805,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/libpng.so:system/lib/vndk-sp-26/libpng.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/libunwind.so:system/lib/vndk-sp-26/libunwind.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/libutils.so:system/lib/vndk-sp-26/libutils.so \
+    vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/hw/android.hidl.memory@1.0-impl.so:system/lib/vndk-sp-26/hw/android.hidl.memory@1.0-impl.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/android.frameworks.displayservice@1.0.so:system/lib64/vndk-26/android.frameworks.displayservice@1.0.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/android.frameworks.schedulerservice@1.0.so:system/lib64/vndk-26/android.frameworks.schedulerservice@1.0.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/android.frameworks.sensorservice@1.0.so:system/lib64/vndk-26/android.frameworks.sensorservice@1.0.so \
@@ -2985,6 +2986,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libpng.so:system/lib64/vndk-sp-26/libpng.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libunwind.so:system/lib64/vndk-sp-26/libunwind.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libutils.so:system/lib64/vndk-sp-26/libutils.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/hw/android.hidl.memory@1.0-impl.so:system/lib64/vndk-sp-26/hw/android.hidl.memory@1.0-impl.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libeffectsconfig.so:system/lib64/vndk-27/libeffectsconfig.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libicui18n.so:system/lib64/vndk-27/libicui18n.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libicuuc.so:system/lib64/vndk-27/libicuuc.so \
