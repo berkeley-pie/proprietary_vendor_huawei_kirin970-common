@@ -2634,6 +2634,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/etc/charger/800x1280_hz/number_8.png:system/etc/charger/800x1280_hz/number_8.png \
     vendor/huawei/kirin970-common/proprietary/etc/charger/800x1280_hz/number_9.png:system/etc/charger/800x1280_hz/number_9.png \
     vendor/huawei/kirin970-common/proprietary/etc/charger/800x1280_hz/percent_sign.png:system/etc/charger/800x1280_hz/percent_sign.png \
+    vendor/huawei/kirin970-common/proprietary/lib/libc_secshared.so:system/lib/libc_secshared.so \
+    vendor/huawei/kirin970-common/proprietary/lib/libdisplayenginesvc_1_0.so:system/lib/libdisplayenginesvc_1_0.so \
+    vendor/huawei/kirin970-common/proprietary/lib/libdisplayenginesvc_1_1.so:system/lib/libdisplayenginesvc_1_1.so \
+    vendor/huawei/kirin970-common/proprietary/lib/libhwsmartdisplay_jni.so:system/lib/libhwsmartdisplay_jni.so \
+    vendor/huawei/kirin970-common/proprietary/lib/vendor.huawei.hardware.graphics.displayeffect@1.0.so:system/lib/vendor.huawei.hardware.graphics.displayeffect@1.0.so \
+    vendor/huawei/kirin970-common/proprietary/lib/vendor.huawei.hardware.graphics.displayeffect@1.1.so:system/lib/vendor.huawei.hardware.graphics.displayeffect@1.1.so \
+    vendor/huawei/kirin970-common/proprietary/lib/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so:system/lib/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so \
+    vendor/huawei/kirin970-common/proprietary/lib/vendor.huawei.hardware.hwdisplay.displayengine@1.1.so:system/lib/vendor.huawei.hardware.hwdisplay.displayengine@1.1.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/android.frameworks.schedulerservice@1.0.so:system/lib/vndk-26/android.frameworks.schedulerservice@1.0.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/android.frameworks.sensorservice@1.0.so:system/lib/vndk-26/android.frameworks.sensorservice@1.0.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/android.frameworks.vr.composer@1.0.so:system/lib/vndk-26/android.frameworks.vr.composer@1.0.so \
@@ -2685,21 +2693,18 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/android.hidl.token@1.0-utils.so:system/lib/vndk-26/android.hidl.token@1.0-utils.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/android.hidl.token@1.0.so:system/lib/vndk-26/android.hidl.token@1.0.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/android.system.wifi.keystore@1.0.so:system/lib/vndk-26/android.system.wifi.keystore@1.0.so \
-    vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libEGL.so:system/lib/vndk-26/libEGL.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libaudioclient.so:system/lib/vndk-26/libaudioclient.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libaudiomanager.so:system/lib/vndk-26/libaudiomanager.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libaudioroute.so:system/lib/vndk-26/libaudioroute.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libaudioutils.so:system/lib/vndk-26/libaudioutils.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libavservices_minijail.so:system/lib/vndk-26/libavservices_minijail.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libbinder.so:system/lib/vndk-26/libbinder.so \
-    vendor/huawei/kirin970-common/proprietary/lib/libc_secshared.so:system/lib/libc_secshared.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libcamera_metadata.so:system/lib/vndk-26/libcamera_metadata.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libcap.so:system/lib/vndk-26/libcap.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libcrypto.so:system/lib/vndk-26/libcrypto.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libcrypto_utils.so:system/lib/vndk-26/libcrypto_utils.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libdiskconfig.so:system/lib/vndk-26/libdiskconfig.so \
-    vendor/huawei/kirin970-common/proprietary/lib/libdisplayenginesvc_1_0.so:system/lib/libdisplayenginesvc_1_0.so \
-    vendor/huawei/kirin970-common/proprietary/lib/libdisplayenginesvc_1_1.so:system/lib/libdisplayenginesvc_1_1.so \
+    vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libEGL.so:system/lib/vndk-26/libEGL.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libevent.so:system/lib/vndk-26/libevent.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libexif.so:system/lib/vndk-26/libexif.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libexpat.so:system/lib/vndk-26/libexpat.so \
@@ -2707,7 +2712,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libgatekeeper.so:system/lib/vndk-26/libgatekeeper.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libgui.so:system/lib/vndk-26/libgui.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libhardware_legacy.so:system/lib/vndk-26/libhardware_legacy.so \
-    vendor/huawei/kirin970-common/proprietary/lib/libhwsmartdisplay_jni.so:system/lib/libhwsmartdisplay_jni.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libicui18n.so:system/lib/vndk-26/libicui18n.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libicuuc.so:system/lib/vndk-26/libicuuc.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libjpeg.so:system/lib/vndk-26/libjpeg.so \
@@ -2717,10 +2721,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libldacBT_enc.so:system/lib/vndk-26/libldacBT_enc.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/liblz4.so:system/lib/vndk-26/liblz4.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libmedia.so:system/lib/vndk-26/libmedia.so \
-    vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libmedia_helper.so:system/lib/vndk-26/libmedia_helper.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libmediacodecservice.so:system/lib/vndk-26/libmediacodecservice.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libmediadrm.so:system/lib/vndk-26/libmediadrm.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libmediametrics.so:system/lib/vndk-26/libmediametrics.so \
+    vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libmedia_helper.so:system/lib/vndk-26/libmedia_helper.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libmemtrack.so:system/lib/vndk-26/libmemtrack.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libminijail.so:system/lib/vndk-26/libminijail.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libnativebridge.so:system/lib/vndk-26/libnativebridge.so \
@@ -2782,19 +2786,13 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libxml2.so:system/lib/vndk-26/libxml2.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libyuv.so:system/lib/vndk-26/libyuv.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/libziparchive.so:system/lib/vndk-26/libziparchive.so \
-    vendor/huawei/kirin970-common/proprietary/lib/vendor.huawei.hardware.graphics.displayeffect@1.0.so:system/lib/vendor.huawei.hardware.graphics.displayeffect@1.0.so \
-    vendor/huawei/kirin970-common/proprietary/lib/vendor.huawei.hardware.graphics.displayeffect@1.1.so:system/lib/vendor.huawei.hardware.graphics.displayeffect@1.1.so \
-    vendor/huawei/kirin970-common/proprietary/lib/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so:system/lib/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so \
-    vendor/huawei/kirin970-common/proprietary/lib/vendor.huawei.hardware.hwdisplay.displayengine@1.1.so:system/lib/vendor.huawei.hardware.hwdisplay.displayengine@1.1.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/android.hardware.graphics.allocator@2.0.so:system/lib/vndk-sp-26/android.hardware.graphics.allocator@2.0.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/android.hardware.graphics.common@1.0.so:system/lib/vndk-sp-26/android.hardware.graphics.common@1.0.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/android.hardware.graphics.mapper@2.0.so:system/lib/vndk-sp-26/android.hardware.graphics.mapper@2.0.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/android.hardware.renderscript@1.0.so:system/lib/vndk-sp-26/android.hardware.renderscript@1.0.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/android.hidl.base@1.0.so:system/lib/vndk-sp-26/android.hidl.base@1.0.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/android.hidl.memory@1.0.so:system/lib/vndk-sp-26/android.hidl.memory@1.0.so \
-    vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/libRSCpuRef.so:system/lib/vndk-sp-26/libRSCpuRef.so \
-    vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/libRSDriver.so:system/lib/vndk-sp-26/libRSDriver.so \
-    vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/libRS_internal.so:system/lib/vndk-sp-26/libRS_internal.so \
+    vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/hw/android.hidl.memory@1.0-impl.so:system/lib/vndk-sp-26/hw/android.hidl.memory@1.0-impl.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/libbacktrace.so:system/lib/vndk-sp-26/libbacktrace.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/libbase.so:system/lib/vndk-sp-26/libbase.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/libbcinfo.so:system/lib/vndk-sp-26/libbcinfo.so \
@@ -2811,9 +2809,24 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/libion.so:system/lib/vndk-sp-26/libion.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/liblzma.so:system/lib/vndk-sp-26/liblzma.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/libpng.so:system/lib/vndk-sp-26/libpng.so \
+    vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/libRSCpuRef.so:system/lib/vndk-sp-26/libRSCpuRef.so \
+    vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/libRSDriver.so:system/lib/vndk-sp-26/libRSDriver.so \
+    vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/libRS_internal.so:system/lib/vndk-sp-26/libRS_internal.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/libunwind.so:system/lib/vndk-sp-26/libunwind.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/libutils.so:system/lib/vndk-sp-26/libutils.so \
-    vendor/huawei/kirin970-common/proprietary/lib/vndk-sp-26/hw/android.hidl.memory@1.0-impl.so:system/lib/vndk-sp-26/hw/android.hidl.memory@1.0-impl.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/libchrlog.so:system/lib64/libchrlog.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/libc_secshared.so:system/lib64/libc_secshared.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/libc_sec_hisi_connectivity.so:system/lib64/libc_sec_hisi_connectivity.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/libdisplayenginesvc_1_0.so:system/lib64/libdisplayenginesvc_1_0.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/libdisplayenginesvc_1_1.so:system/lib64/libdisplayenginesvc_1_1.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/libhwsmartdisplay_jni.so:system/lib64/libhwsmartdisplay_jni.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/libpf_customize_hisi.so:system/lib64/libpf_customize_hisi.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/libwifi-hal.so:system/lib64/libwifi-hal.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/libwifi-system.so:system/lib64/libwifi-system.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vendor.huawei.hardware.graphics.displayeffect@1.0.so:system/lib64/vendor.huawei.hardware.graphics.displayeffect@1.0.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vendor.huawei.hardware.graphics.displayeffect@1.1.so:system/lib64/vendor.huawei.hardware.graphics.displayeffect@1.1.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so:system/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.1.so:system/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.1.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/android.frameworks.displayservice@1.0.so:system/lib64/vndk-26/android.frameworks.displayservice@1.0.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/android.frameworks.schedulerservice@1.0.so:system/lib64/vndk-26/android.frameworks.schedulerservice@1.0.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/android.frameworks.sensorservice@1.0.so:system/lib64/vndk-26/android.frameworks.sensorservice@1.0.so \
@@ -2867,24 +2880,21 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/android.hidl.token@1.0-utils.so:system/lib64/vndk-26/android.hidl.token@1.0-utils.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/android.hidl.token@1.0.so:system/lib64/vndk-26/android.hidl.token@1.0.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/android.system.wifi.keystore@1.0.so:system/lib64/vndk-26/android.system.wifi.keystore@1.0.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libEGL.so:system/lib64/vndk-26/libEGL.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libaudioclient.so:system/lib64/vndk-26/libaudioclient.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libaudiomanager.so:system/lib64/vndk-26/libaudiomanager.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libaudioroute.so:system/lib64/vndk-26/libaudioroute.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libaudioutils.so:system/lib64/vndk-26/libaudioutils.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libavservices_minijail.so:system/lib64/vndk-26/libavservices_minijail.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libbinder.so:system/lib64/vndk-26/libbinder.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/libc_secshared.so:system/lib64/libc_secshared.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libcamera_metadata.so:system/lib64/vndk-26/libcamera_metadata.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libcap.so:system/lib64/vndk-26/libcap.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libcrypto.so:system/lib64/vndk-26/libcrypto.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libcrypto_utils.so:system/lib64/vndk-26/libcrypto_utils.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libcurl.so:system/lib64/vndk-26/libcurl.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libdiskconfig.so:system/lib64/vndk-26/libdiskconfig.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/libdisplayenginesvc_1_0.so:system/lib64/libdisplayenginesvc_1_0.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/libdisplayenginesvc_1_1.so:system/lib64/libdisplayenginesvc_1_1.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libdumpstateutil.so:system/lib64/vndk-26/libdumpstateutil.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libeffectsconfig.so:system/lib64/vndk-26/libeffectsconfig.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libEGL.so:system/lib64/vndk-26/libEGL.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libevent.so:system/lib64/vndk-26/libevent.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libexif.so:system/lib64/vndk-26/libexif.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libexpat.so:system/lib64/vndk-26/libexpat.so \
@@ -2892,7 +2902,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libgatekeeper.so:system/lib64/vndk-26/libgatekeeper.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libgui.so:system/lib64/vndk-26/libgui.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libhardware_legacy.so:system/lib64/vndk-26/libhardware_legacy.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/libhwsmartdisplay_jni.so:system/lib64/libhwsmartdisplay_jni.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libicui18n.so:system/lib64/vndk-26/libicui18n.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libicuuc.so:system/lib64/vndk-26/libicuuc.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libjpeg.so:system/lib64/vndk-26/libjpeg.so \
@@ -2902,9 +2911,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libldacBT_enc.so:system/lib64/vndk-26/libldacBT_enc.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/liblz4.so:system/lib64/vndk-26/liblz4.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libmedia.so:system/lib64/vndk-26/libmedia.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libmedia_helper.so:system/lib64/vndk-26/libmedia_helper.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libmediadrm.so:system/lib64/vndk-26/libmediadrm.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libmediametrics.so:system/lib64/vndk-26/libmediametrics.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libmedia_helper.so:system/lib64/vndk-26/libmedia_helper.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libmemtrack.so:system/lib64/vndk-26/libmemtrack.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libminijail.so:system/lib64/vndk-26/libminijail.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libnativebridge.so:system/lib64/vndk-26/libnativebridge.so \
@@ -2968,19 +2977,17 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libxml2.so:system/lib64/vndk-26/libxml2.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libyuv.so:system/lib64/vndk-26/libyuv.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-26/libziparchive.so:system/lib64/vndk-26/libziparchive.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/vendor.huawei.hardware.graphics.displayeffect@1.0.so:system/lib64/vendor.huawei.hardware.graphics.displayeffect@1.0.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/vendor.huawei.hardware.graphics.displayeffect@1.1.so:system/lib64/vendor.huawei.hardware.graphics.displayeffect@1.1.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so:system/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.1.so:system/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.1.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libeffectsconfig.so:system/lib64/vndk-27/libeffectsconfig.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libicui18n.so:system/lib64/vndk-27/libicui18n.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libicuuc.so:system/lib64/vndk-27/libicuuc.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libneuralnetworks.so:system/lib64/vndk-27/libneuralnetworks.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/android.hardware.graphics.allocator@2.0.so:system/lib64/vndk-sp-26/android.hardware.graphics.allocator@2.0.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/android.hardware.graphics.common@1.0.so:system/lib64/vndk-sp-26/android.hardware.graphics.common@1.0.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/android.hardware.graphics.mapper@2.0.so:system/lib64/vndk-sp-26/android.hardware.graphics.mapper@2.0.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/android.hardware.renderscript@1.0.so:system/lib64/vndk-sp-26/android.hardware.renderscript@1.0.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/android.hidl.base@1.0.so:system/lib64/vndk-sp-26/android.hidl.base@1.0.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/android.hidl.memory@1.0.so:system/lib64/vndk-sp-26/android.hidl.memory@1.0.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libRSCpuRef.so:system/lib64/vndk-sp-26/libRSCpuRef.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libRSDriver.so:system/lib64/vndk-sp-26/libRSDriver.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libRS_internal.so:system/lib64/vndk-sp-26/libRS_internal.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/hw/android.hidl.memory@1.0-impl.so:system/lib64/vndk-sp-26/hw/android.hidl.memory@1.0-impl.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libbacktrace.so:system/lib64/vndk-sp-26/libbacktrace.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libbase.so:system/lib64/vndk-sp-26/libbase.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libbcinfo.so:system/lib64/vndk-sp-26/libbcinfo.so \
@@ -2997,18 +3004,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libion.so:system/lib64/vndk-sp-26/libion.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/liblzma.so:system/lib64/vndk-sp-26/liblzma.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libpng.so:system/lib64/vndk-sp-26/libpng.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libRSCpuRef.so:system/lib64/vndk-sp-26/libRSCpuRef.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libRSDriver.so:system/lib64/vndk-sp-26/libRSDriver.so \
+    vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libRS_internal.so:system/lib64/vndk-sp-26/libRS_internal.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libunwind.so:system/lib64/vndk-sp-26/libunwind.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libutils.so:system/lib64/vndk-sp-26/libutils.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/hw/android.hidl.memory@1.0-impl.so:system/lib64/vndk-sp-26/hw/android.hidl.memory@1.0-impl.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libeffectsconfig.so:system/lib64/vndk-27/libeffectsconfig.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libicui18n.so:system/lib64/vndk-27/libicui18n.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libicuuc.so:system/lib64/vndk-27/libicuuc.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libneuralnetworks.so:system/lib64/vndk-27/libneuralnetworks.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/libchrlog.so:system/lib64/libchrlog.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/libc_sec_hisi_connectivity.so:system/lib64/libc_sec_hisi_connectivity.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/libpf_customize_hisi.so:system/lib64/libpf_customize_hisi.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/libwifi-system.so:system/lib64/libwifi-system.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/libwifi-hal.so:system/lib64/libwifi-hal.so
+    vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libutils.so:system/lib64/vndk-sp-26/libutils.so
 
 PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHI6403 \
